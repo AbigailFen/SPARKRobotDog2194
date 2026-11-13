@@ -172,7 +172,7 @@ public class SPARK extends LinearOpMode {
 
             case 0:
                 hip1.setPosition(0.2); ankle1.setPosition(0.4);
-                hip4.setPosition(0.75); ankle4.setPosition(0.6);// front-left forward
+                hip4.setPosition(0.75); ankle4.setPosition(0.6);
                 break;
             case 1:
                 hip1.setPosition(0.35);
@@ -185,14 +185,14 @@ public class SPARK extends LinearOpMode {
         ankle2.setPosition(0.6);
 
         ankle3.setPosition(0.4);
-        ankle4.setPosition(0.6);// front-right forward
+        ankle4.setPosition(0.6);
                 break;
             case 2:
                 hip3.setPosition(0.2);
                 ankle3.setPosition(0.4);
 
                 hip2.setPosition(0.75);
-                ankle2.setPosition(0.6); // back-left forward
+                ankle2.setPosition(0.6);
                 break;
             case 3:
                 hip1.setPosition(0.35);
@@ -205,7 +205,7 @@ public class SPARK extends LinearOpMode {
                 ankle2.setPosition(0.6);
 
                 ankle3.setPosition(0.4);
-                ankle4.setPosition(0.6);// front-right forward
+                ankle4.setPosition(0.6);
                 break;
         }
     }
