@@ -171,11 +171,11 @@ public class SPARK extends LinearOpMode {
         switch (step) {
 
             case 0:
-                hip1.setPosition(0.2); ankle1.setPosition(0.4);
-                hip4.setPosition(0.75); ankle4.setPosition(0.6);
+                hip1.setPosition(0.2); ankle1.setPosition(0.4); // front left move forward
+                hip4.setPosition(0.75); ankle4.setPosition(0.6); // back right move forward
                 break;
             case 1:
-                hip1.setPosition(0.35);
+                hip1.setPosition(0.35); // All move back home
         hip2.setPosition(0.6);
 
         hip3.setPosition(0.4);
@@ -188,14 +188,14 @@ public class SPARK extends LinearOpMode {
         ankle4.setPosition(0.6);
                 break;
             case 2:
-                hip3.setPosition(0.2);
+                hip3.setPosition(0.2); // back left move forward
                 ankle3.setPosition(0.4);
 
-                hip2.setPosition(0.75);
+                hip2.setPosition(0.75); // front right move forward
                 ankle2.setPosition(0.6);
                 break;
             case 3:
-                hip1.setPosition(0.35);
+                hip1.setPosition(0.35); // All move back home
                 hip2.setPosition(0.6);
 
                 hip3.setPosition(0.4);
@@ -209,58 +209,6 @@ public class SPARK extends LinearOpMode {
                 break;
         }
     }
-//turn
-//    private void walkForwardStep(int step) {
-//        switch (step) {
-//            case 0:
-//                hip1.setPosition(0.35);
-//                hip2.setPosition(0.6);
-//                hip3.setPosition(0.4);
-//                hip4.setPosition(0.6);
-//                ankle1.setPosition(0.4);//25
-//                ankle2.setPosition(0.6);
-//                ankle3.setPosition(0.4);//35
-//                ankle4.setPosition(0.6);
-//
-//            case 1:
-//                hip1.setPosition(0.2); ankle1.setPosition(0.4);
-//                hip4.setPosition(0.75); ankle4.setPosition(0.6);// front-left forward
-//                break;
-//            case 2:
-//                hip1.setPosition(0.35);
-//                hip2.setPosition(0.6);
-//
-//                hip3.setPosition(0.4);
-//                hip4.setPosition(0.6);
-//
-//                ankle1.setPosition(0.4);
-//                ankle2.setPosition(0.6);
-//
-//                ankle3.setPosition(0.4);
-//                ankle4.setPosition(0.6);// front-right forward
-//                break;
-//            case 3:
-//                hip3.setPosition(0.2);
-//                ankle3.setPosition(0.4);
-//
-//                hip2.setPosition(0.75);
-//                ankle2.setPosition(0.6); // back-left forward
-//                break;
-//            case 4:
-//                hip1.setPosition(0.35);
-//                hip2.setPosition(0.6);
-//
-//                hip3.setPosition(0.4);
-//                hip4.setPosition(0.6);
-//
-//                ankle1.setPosition(0.4);
-//                ankle2.setPosition(0.6);
-//
-//                ankle3.setPosition(0.4);
-//                ankle4.setPosition(0.6);// front-right forward
-//                break;
-//        }
-//    }
 
 
     private void setStandingPose() {
