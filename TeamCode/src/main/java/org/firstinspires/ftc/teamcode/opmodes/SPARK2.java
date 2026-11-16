@@ -331,7 +331,7 @@ public class SPARK2 extends LinearOpMode {
 
         }
     }
-
+// Home
     private void setStandingPose() {
 
         hip1.setPosition(0.5);
